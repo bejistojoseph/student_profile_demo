@@ -24,4 +24,8 @@ body {
 .box-sc{
     border-style: double;
     border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(149, 214, 242);
+   
 }
