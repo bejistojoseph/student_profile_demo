@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    /* margin-top: 1300px; */
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(jit.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+.box-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: auto;
+    text-align: left;
+    padding: 2cqb;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+}
+.logo img {
+    width: 150px;
+    height: auto;
+}
+.logo-text {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header img {
+    width: 60px;
+}
+.header h2 {
+    font-size: 24px;
+    color: #00a0b0;
+    margin-left: 10px;
+}
+.header .badge {
+    width: 50px;
+}
+
+.box-card h1 {
+    /* color: #00a0b0; */
+    font-size: 36px;
+    
+    background-color: #01c9e0;
+    padding: 10px;
+    border-radius: 10px;
+    display: inline-block;
+}
