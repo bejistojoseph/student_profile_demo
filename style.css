@@ -7,7 +7,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(jit.jpg);
+    background-image: url(jit2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -115,3 +115,16 @@ body {
     padding: 0 2px;
   }
   
+  @media screen and (max-width: 768px) {
+    .profile-card{
+      max-width: 300px;
+    }
+    .logo{
+      max-width: 250px;
+    }
+    .buttons{
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
