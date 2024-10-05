@@ -3,20 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Co-Curricular</title>
-    <link rel="stylesheet" href="estyle.css">
+    <title>Student Achievements</title>
+    <link rel="stylesheet" href="cstyle.css">
 </head>
 <body>
-    <div class="box-card">
-    <img src="new logo.jpg" alt="College Logo" class="clogo">
-    <h1 style="color: aliceblue;">CO-CURRICULAR</h1>
-    <div class="logo">
-    <h2 class="logo-text">RPA Workshop</h2>
+    <div class="container">
+        <img src="new logo.jpg" alt="College Logo" class="clogo">
+        <h1>EXTRA-CURRICULAR</h1>
+        <div class="buttons">
+            <button class="btn" onclick="showSection('courses')">Courses</button>
+            <button class="btn" onclick="showSection('workshops')">Workshops</button>
+            <button class="btn" onclick="showSection('projects')">Projects</button>
+        </div>
+        
+        <div class="content" id="courses">
+            <h2>Courses</h2>
+            <div class="workshop-grid">
+                <div class="workshop-card">
+                    <h3>Course 1</h3>
+                    <p>Date: June 2023</p>
+                    <p>Details: Introduction to AI</p>
+                    <div class="vcertificate"><b><a href="certificate.jpg">Click To View Certificate</a></b></div>
+                </div>
+                <div class="workshop-card">
+                    <h3>Course 2</h3>
+                    <p>Date: August 2023</p>
+                    <p>Details: Web Development</p>
+                    <div class="vcertificate"><b><a href="certificate.jpg">Click To View Certificate</a></b></div>
+                </div>
+                <div class="workshop-card">
+                    <h3>Course 3</h3>
+                    <p>Date: September 2023</p>
+                    <p>Details: Machine Learning</p>
+                    <div class="vcertificate"><b><a href="certificate.jpg">Click To View Certificate</a></b></div>
+                </div>
+            </div>
+        </div>
 
-    <div class="certificate">
-        <img src="certificate.jpg" alt="Certificate of Appreciation">
+        <div class="content" id="workshops">
+            <h2>Workshops</h2>
+            <div class="workshop-grid">
+                <div class="workshop-card">
+                    <h3>Workshop 1</h3>
+                    <p>Date: June 2023</p>
+                    <p>Details: Introduction to AI</p>
+                    <div class="vcertificate"><b><a href="certificate.jpg">Click To View Certificate</a></b></div>
+                </div>
+                <div class="workshop-card">
+                    <h3>Workshop 2</h3>
+                    <p>Date: August 2023</p>
+                    <p>Details: Web Development</p>
+                    <div class="vcertificate"><b><a href="certificate.jpg">Click To View Certificate</a></b></div>
+                </div>
+                <div class="workshop-card">
+                    <h3>Workshop 3</h3>
+                    <p>Date: September 2023</p>
+                    <p>Details: Machine Learning</p>
+                    <div class="vcertificate"><b><a href="certificate.jpg">Click To View Certificate</a></b></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="projects">
+            <h2>Projects</h2>
+            <div class="workshop-grid">
+                <div class="workshop-card">
+                    <h3>Project 1</h3>
+                    <p>Date: June 2023</p>
+                    <p>Details: Introduction to AI</p>
+                </div>
+                <div class="workshop-card">
+                    <h3>Project 2</h3>
+                    <p>Date: August 2023</p>
+                    <p>Details: Web Development</p>                    
+                </div>
+                <div class="workshop-card">
+                    <h3>Project 3</h3>
+                    <p>Date: September 2023</p>
+                    <p>Details: Machine Learning</p>
+                </div>
+            </div>
+        </div>
     </div>
-</div>
-</div>
+
+    <script src="cscript.js"></script>
 </body>
 </html>
