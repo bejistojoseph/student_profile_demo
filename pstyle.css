@@ -140,3 +140,27 @@ header p {
 }
 
 
+@media screen and (max-width: 768px){
+
+    .box-card{
+        margin-top: 850px;
+    }
+
+    .internship-box {
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 300px;
+        text-align: center;
+    }
+
+    .offer-box {
+        background-color: #6ce0ed;
+        color: white;
+        padding: 20px;
+        margin: 10px;
+        border-radius: 10px;
+        width: 200px;
+        text-align: center;
+    }
+}
