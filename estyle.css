@@ -99,4 +99,14 @@ body {
         display: inline-block;
         align-items: center;
     }
+    .logo {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px 0;
+    }
+    .logo-text{
+        text-align: center;
+    }
 }
