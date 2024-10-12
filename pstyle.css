@@ -140,6 +140,44 @@ header p {
 }
 
 
+/* From Uiverse.io by Jedi-hongbin */ 
+.backb {
+    border-style: solid;
+    border-color: #011b0c;
+    display: flex;
+    height: 3em;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    background-color: #eeeeee4b;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    transition: all 0.2s linear;
+    cursor: pointer;   
+    background: #fff;
+   }
+   
+   .backb > svg {
+    margin-right: 5px;
+    margin-left: 5px;
+    font-size: 50px;
+    transition: all 0.4s ease-in;
+   }
+   
+   .backb:hover > svg {
+    font-size: 1.2em;
+    transform: translateX(-5px);
+   }
+   
+   .backb:hover {
+    /* box-shadow: 9px 9px 33px #d1d1d1, -9px -9px 33px #ffffff; */
+    transform: translateY(-2px);
+    background-color: aquamarine;
+    border-style: none;
+    
+   }
+
+
 @media screen and (max-width: 768px){
 
     .box-card{
