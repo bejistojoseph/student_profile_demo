@@ -181,7 +181,7 @@ header p {
 @media screen and (max-width: 768px){
 
     .box-card{
-        margin-top: 850px;
+        margin-top: 200%;
     }
 
     .internship-box {
