@@ -63,6 +63,7 @@ body {
     -webkit-appearance: none;
     appearance: none;
     position: relative;
+ 
     border-width: 0;
     padding: 0 8px 12px;
     min-width: 10em;

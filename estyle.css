@@ -74,6 +74,11 @@ body {
     margin-bottom: 20px;
 }
 
+.logo-texti{
+    margin-top: 73px; 
+    margin-left: 55px;
+}
+
 /* From Uiverse.io by Jedi-hongbin */ 
 .backb {
     border-style: solid;
@@ -145,5 +150,10 @@ body {
     }
     .logo-text{
         text-align: center;
+    }
+
+    .logo-texti{
+        margin-top: none; 
+        margin-left: none;
     }
 }
