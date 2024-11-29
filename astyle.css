@@ -1,54 +1,63 @@
+ /* Style for Swiper container */
+ .swiper-container {
+    padding-top: 1%;
+    width: 60%;
+    height: 700px;
+    margin: auto;
+    padding-bottom: 5%;
+}
+
+/* Style for Swiper slides */
+.swiper-slide {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    border-radius: 10px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f8ff;
     margin: 0;
-    margin-top: 1300px;
+    margin-top: 15%;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-image: url(jit.jpg);
+    background-image: url(jit2.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    overflow-y: scroll;
+    overflow-x: hidden;
     
 }
 .box-card {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    max-width: auto;
+    max-width: 70%;
     text-align: left;
     padding: 2cqb;
 }
-.box-sc{
-    border-style: double;
-    
-    border-radius: 10px;
-    align-items: center;
-    text-align: center;   
-    background-color: rgb(149, 214, 242);
 
-}
-.box-sc a{
-    text-decoration: none;
-}
 
 .Heading{
     border-style: outset;
     width: 100px;
-    margin-left: 41.5%;
-    /* border-radius: 10px; */
-    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
     background-color: rgb(149, 214, 242);
 }
 
-body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-}
+
 .table-s {
     width: 100%;
     border-collapse: collapse;
@@ -132,40 +141,66 @@ td {
     
    }
 
-   /* @media screen and (max-width: 768px){
 
+
+ @media screen and (max-width: 768px){
+
+    
+    
     body {
         font-family: Arial, sans-serif;
         background-color: #f0f8ff;
-        margin: 0;
-        margin-top: 50%;
+       
+        margin-top:0%;
         padding: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background-image: url(jit.jpg);
+        background-image: url(jit2.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        overflow-y: scroll;
+        overflow-x: hidden;
         
     }
-
     .box-card {
         background-color: #fff;
         border-radius: 8px;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        max-width: 300px;
+        max-width: 170%;
         text-align: left;
         padding: 2cqb;
     }
-    .box-sc{
-        border-style: double;
-        
-        border-radius: 10px;
-        align-items: center;
-        text-align: center;   
-        background-color: rgb(149, 214, 242);
 
-   }
-} */
+    .swiper-container {
+        padding-top: 0%;
+        width: 60%;
+        height: 550px;
+        margin: auto;
+        padding-bottom: 5%;
+    }    
+    
+    .swiper-slide {
+        background-color: #f3f3f3;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        font-size: 14px;
+        font-weight: bold;
+        color: #333;
+        border-radius: 10px;
+    }
+
+}  
+
+
+@media (max-width: 768px) {
+    body {
+      transform: scale(0.5);
+      /* transform-origin: center;  */
+      }
+  }
+  
