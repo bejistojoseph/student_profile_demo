@@ -131,6 +131,10 @@ body {
     border-width: auto;
   }
   
+  .card .btn:hover{
+    scale: 1.1;
+
+  }
   
 
 /* From Uiverse.io by Jedi-hongbin */ 
